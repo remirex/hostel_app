@@ -1,0 +1,282 @@
+body {
+    margin:0;
+    padding:0;
+    background:#FFF;
+    font-size:14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#363636;
+    font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:900;
+    margin:1em 0 0.5em;
+    color:#696969;
+}
+
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+    margin:0.3em 0 0.5em;
+}
+img {
+    vertical-align:bottom;
+    max-width:100%;
+}
+/*
+ global link stilling
+*/
+a:link,
+a:visited {
+    text-decoration:none;
+    color:#363636;
+    transition:0.1s all ease;
+}
+a:hover {
+    text-decoration:none;
+    color:#696969;
+}
+a:active {
+    color:#000;
+}
+
+.negative {
+    color:#FFFFFF;
+}
+
+.negative h1,
+.negative h2,
+.negative h3,
+.negative h4,
+.negative h5,
+.negative h6 {
+    color:#FFFFFF;
+}
+
+
+
+.button {
+    border: 1px solid #696969;
+    border-radius: 5px;
+    color: #696969;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+    margin:20px 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background:#000;
+    color:#fff;
+}
+
+
+.negative .button {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.negative .button:hover {
+    background: #FFF;
+    color: #696969;
+    text-decoration:none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 30px;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+#mainNav .navbar-nav .nav-item .nav-link:link,
+#mainNav .navbar-nav .nav-item .nav-link:visited {
+    color:#696969;
+    text-decoration:none;
+    border-bottom:4px solid #FFF;
+    transition:0.1s all ease;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color:#fff;
+    border-bottom:4px solid #fff;
+    background:#000;
+    border-radius: 3px;
+}
+
+.navbar-toggler {
+    margin-bottom: 5px;
+}
+
+header {
+    background: url("../images/nastuh-abootalebi-284881.jpg") center center / cover fixed;
+    padding: 180px 0;
+    text-align: center;
+}
+
+.baner_front {
+    background: rgba(0,0,0,0.5);
+    border-radius:2px;
+    padding:20px 40px;
+    width:700px;
+    margin: 0 auto;
+}
+.baner_front p {
+    text-transform: uppercase;
+}
+
+
+
+.card {
+    margin-bottom: 30px;
+}
+
+#r_header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#about {
+    background:url("../images/nastuh-abootalebi-284877.jpg") center center / cover;
+    padding:100px 0;
+    margin-top: 70px;
+
+}
+
+#about .back {
+    background: rgba(0,0,0,0.5);
+    border-radius:2px;
+    padding:20px 40px;
+    width:600px;
+}
+
+
+#footer {
+    padding: 50px 0;
+}
+
+#footer ul {
+    list-style: none;
+}
+.social  {
+    margin: 0;
+    padding: 0;
+}
+.social li {
+    float: left;
+}
+.find {
+    margin: 0;
+    padding: 0;
+}
+.findus li {
+    float: left;
+}
+.money {
+    margin: 0;
+    padding: 0;
+}
+.money li {
+    float: left;
+}
+footer {
+    background-color: #ccc;
+    padding-top: 30px;
+}
+
+#contact {
+    margin: 25px 0;
+}
+#contact p {
+    border-bottom:1px solid #ccc;
+    padding:10px 0;
+    font-size:1.4em;
+}
+#contact i {
+    width: 100px;
+}
+
+#slider {
+    padding: 0;
+}
+#current {
+    height: 380px;
+    width: 760px;
+}
+.thumb {
+    width: 179px;
+    height: 100px;
+    margin-right: 11px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.thumb:nth-of-type(5) {
+    margin-right: 0;
+}
+
+.description {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.gallery {
+    column-count: 4;
+    padding-top: 40px;
+}
+.gallery img {
+    width: 100%;
+    padding: 7px 0;
+}
+
+#about_us {
+    margin-bottom: 30px;
+
+}
+
+.error {
+    color: red;
+}
+
+.sidebar-module {
+    padding: 1rem;
+}
+
+.thank-you-section {
+    margin: 100px auto;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .baner_front {
+        width: 400px;
+    }
+    #about .back {
+        width: 400px;
+    }
+}
+@media screen and (max-width:767px) {
+    .baner_front {
+        width: auto;
+    }
+    #about .back {
+        width: auto;
+    }
+}
+
+@media (max-width:500px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+
+
+
