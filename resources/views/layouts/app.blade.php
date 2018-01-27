@@ -72,7 +72,7 @@
                         <i class="fa fa-phone"></i> &nbsp;+381637479753<br>
                         <i class="fa fa-envelope"></i> &nbsp;mirkojosimovic1987@gmail.com<br>
                         <i class="fa fa-globe"></i> &nbsp;https://github.com/remirex<br>
-                        <i class="fa fa-home"></i> &nbsp;Bulevar Oslobođenja 53, 11000 Beograd, Serbia
+                        <i class="fa fa-home"></i> &nbsp;Belgrade, Serbia
                     </p>
                 </div>
             </div>

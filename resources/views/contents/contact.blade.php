@@ -13,7 +13,7 @@
             <p><i class="fa fa-2x fa-phone"></i> +381637479753</p>
             <p><i class="fa fa-2x fa-envelope"></i>info@example.rs</p>
             <p><i class="fa fa-2x fa-globe"></i>www.example.rs</p>
-            <p><i class="fa fa-2x fa-home"></i>Bulevar Oslobođenja 53, 11000 Beograd, Serbia</p>
+            <p><i class="fa fa-2x fa-home"></i>Belgrade, Serbia</p>
         </div>
     </div><!-- /.contact -->
 
